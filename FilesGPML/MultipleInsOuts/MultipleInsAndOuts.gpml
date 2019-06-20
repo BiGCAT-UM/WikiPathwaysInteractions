@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="MultipleInsAndOuts" Version="20190620" Organism="Homo sapiens">
+  <Graphics BoardWidth="768.255033557047" BoardHeight="471.61073825503354" />
+  <DataNode TextLabel="Oxoglutaric acid" GraphId="aeeb3" Type="Metabolite">
+    <Graphics CenterX="663.6166107382546" CenterY="324.4974832214765" Width="119.74664429530274" Height="54.36073825503354" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
+    <Xref Database="HMDB" ID="HMDB0000208" />
+  </DataNode>
+  <DataNode TextLabel="L-Methionine" GraphId="beece" Type="Metabolite">
+    <Graphics CenterX="453.6912751677853" CenterY="412.7516778523491" Width="195.97315436241627" Height="55.033557046980036" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
+    <Xref Database="HMDB" ID="HMDB0000696" />
+  </DataNode>
+  <DataNode TextLabel="2-Oxo-4- methylthiobutanoic acid" GraphId="c79cc" Type="Metabolite">
+    <Graphics CenterX="450.33557046979877" CenterY="161.41023489932888" Width="210.73825503355724" Height="53.01845637583886" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
+    <Xref Database="HMDB" ID="HMDB0001553" />
+  </DataNode>
+  <DataNode TextLabel="L-Glutamic acid" GraphId="d8a6b" Type="Metabolite">
+    <Graphics CenterX="661.3926174496639" CenterY="214.7651006711409" Width="118.82550335570568" Height="45.6375838926175" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
+    <Xref Database="HMDB" ID="HMDB0000148" />
+  </DataNode>
+  <Interaction>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="450.33557046979877" Y="187.91946308724832" GraphRef="c79cc" RelX="0.0" RelY="1.0" />
+      <Point X="453.6912751677853" Y="385.23489932885906" GraphRef="beece" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Anchor Position="0.4" Shape="None" GraphId="fc1ea" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="601.9798657718111" Y="214.7651006711409" GraphRef="d8a6b" RelX="-1.0" RelY="0.0" />
+      <Point X="451.6778523489934" Y="266.84563758389265" GraphRef="fc1ea" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="451.6778523489934" Y="266.84563758389265" GraphRef="fc1ea" RelX="0.0" RelY="0.0" />
+      <Point X="603.7432885906032" Y="324.4974832214765" GraphRef="aeeb3" RelX="-1.0" RelY="0.0" ArrowHead="mim-conversion" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax />
+</Pathway>
+
