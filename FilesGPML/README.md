@@ -2,7 +2,7 @@
 
 ## Catalysis
 
-![Example GPML diagram](FilesGPML/catalysis/Catalysis.png)
+![Example GPML diagram](catalysis/Catalysis.png)
 
-* [GPML](FilesGPML/catalysis/Catalysis.gpml)
-* [Expected results](FilesGPML/catalysis/Catalysis.props)
+* [GPML](catalysis/Catalysis.gpml)
+* [Expected results](catalysis/Catalysis.props)
