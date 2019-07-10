@@ -35,6 +35,13 @@
 * [GPML](MultipleInsOuts/multipleInsAndOuts.gpml)
 * [Expected results](MultipleInsOuts/multipleInsAndOuts.props)
 
+## Directed interaction (unspecified type)
+
+![Example GPML diagram](unspecified/UnspecifiedDirected.png)
+
+* [GPML](unspecified/UnspecifiedDirected.gpml)
+* [Expected results](unspecified/UnspecifiedDirected.props)
+
 ## General interaction
 
 ![Example GPML diagram](generalint/GeneralInt.png)
