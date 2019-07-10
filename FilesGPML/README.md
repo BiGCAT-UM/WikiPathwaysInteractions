@@ -51,7 +51,7 @@
 
 ## Stimulation
 
-![Example GPML diagram](stimulation/Stimulation.png)
+![Example GPML diagram](stimulation/Stimuation.png)
 
 * [GPML](stimulation/Stimulation.gpml)
 * [Expected results](stimulation/Stimulation.props)
