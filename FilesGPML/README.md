@@ -21,6 +21,20 @@
 * [GPML](conversion/Conversion.gpml)
 * [Expected results](conversion/Conversion.props)
 
+### with multiple outputs
+
+![Example GPML diagram](multipleouts/MultipleOutputs.png)
+
+* [GPML](multipleouts/MultipleOutputs.gpml)
+* [Expected results](multipleouts/MultipleOutputs.props)
+
+### with multiple inputs and outputs
+
+![Example GPML diagram](MultipleInsOuts/multipleInsAndOuts.PNG)
+
+* [GPML](MultipleInsOuts/multipleInsAndOuts.gpml)
+* [Expected results](MultipleInsOuts/multipleInsAndOuts.props)
+
 ## General interaction
 
 ![Example GPML diagram](generalint/GeneralInt.png)
@@ -34,4 +48,19 @@
 
 * [GPML](inhibition/Inhibition.gpml)
 * [Expected results](inhibition/Inhibition.props)
+
+## Stimulation
+
+![Example GPML diagram](stimulation/Stimulation.png)
+
+* [GPML](stimulation/Stimulation.gpml)
+* [Expected results](stimulation/Stimulation.props)
+
+## TranscriptionTranslation
+
+![Example GPML diagram](transcriptiontranslation/TranscriptionTranslation.png)
+
+* [GPML](transcriptiontranslation/TranscriptionTranslation.gpml)
+* [Expected results](transcriptiontranslation/TranscriptionTranslation.props)
+
 
