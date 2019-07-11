@@ -2,7 +2,72 @@
 
 ## Catalysis
 
-![Example GPML diagram](FilesGPML/catalysis/Catalysis.png)
+![Example GPML diagram](catalysis/Catalysis.png)
 
-* [GPML](FilesGPML/catalysis/Catalysis.gpml)
-* [Expected results](FilesGPML/catalysis/Catalysis.props)
+* [GPML](catalysis/Catalysis.gpml)
+* [Expected results](catalysis/Catalysis.props)
+
+## Complex binding
+
+![Example GPML diagram](complexbinding/ComplexBinding.png)
+
+* [GPML](complexbinding/ComplexBinding.gpml)
+* [Expected results](complexbinding/ComplexBinding.props)
+
+## Conversion
+
+![Example GPML diagram](conversion/Conversion.png)
+
+* [GPML](conversion/Conversion.gpml)
+* [Expected results](conversion/Conversion.props)
+
+### with multiple outputs
+
+![Example GPML diagram](multipleouts/MultipleOutputs.png)
+
+* [GPML](multipleouts/MultipleOutputs.gpml)
+* [Expected results](multipleouts/MultipleOutputs.props)
+
+### with multiple inputs and outputs
+
+![Example GPML diagram](MultipleInsOuts/multipleInsAndOuts.PNG)
+
+* [GPML](MultipleInsOuts/multipleInsAndOuts.gpml)
+* [Expected results](MultipleInsOuts/multipleInsAndOuts.props)
+
+## Directed interaction (unspecified type)
+
+![Example GPML diagram](unspecified/UnspecifiedDirected.png)
+
+* [GPML](unspecified/UnspecifiedDirected.gpml)
+* [Expected results](unspecified/UnspecifiedDirected.props)
+
+## General interaction
+
+![Example GPML diagram](generalint/GeneralInt.png)
+
+* [GPML](generalint/GeneralInt.gpml)
+* [Expected results](generalint/GeneralInt.props)
+
+## Inhibition
+
+![Example GPML diagram](inhibition/Inhibition.png)
+
+* [GPML](inhibition/Inhibition.gpml)
+* [Expected results](inhibition/Inhibition.props)
+
+## Stimulation
+
+![Example GPML diagram](stimulation/Stimuation.png)
+
+* [GPML](stimulation/Stimulation.gpml)
+* [Expected results](stimulation/Stimulation.props)
+
+## TranscriptionTranslation
+
+![Example GPML diagram](transcriptiontranslation/TranscriptionTranslation.png)
+
+* [GPML](transcriptiontranslation/TranscriptionTranslation.gpml)
+* [Expected results](transcriptiontranslation/TranscriptionTranslation.props)
+
+
