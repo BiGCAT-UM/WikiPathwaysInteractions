@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="MIM-Stimulation" Version="20190813" Organism="Homo sapiens">
+  <Graphics BoardWidth="552.0" BoardHeight="211.5" />
+  <DataNode TextLabel="GABBR2" GraphId="c2574" Type="GeneProduct">
+    <Graphics CenterX="477.0" CenterY="169.0" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSG00000136928" />
+  </DataNode>
+  <DataNode TextLabel="GNAO1" GraphId="d08e5" Type="GeneProduct">
+    <Graphics CenterX="221.0" CenterY="169.0" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSG00000087258" />
+  </DataNode>
+  <Interaction>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="266.0" Y="169.0" GraphRef="d08e5" RelX="1.0" RelY="0.0" />
+      <Point X="432.0" Y="169.0" GraphRef="c2574" RelX="-1.0" RelY="0.0" ArrowHead="mim-stimulation" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax />
+</Pathway>
+
