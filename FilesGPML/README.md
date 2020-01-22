@@ -72,56 +72,56 @@
 
 ## MIM-Catalysis
 
-![Example GPML diagram](mim-catalysis/mim-catalysis.png)
+![Example GPML diagram](mim-catalysis/mim-catalysis.PNG)
 
 * [GPML](mim-catalysis/mim-catalysis.gpml)
 * [Expected results](mim-catalysis/mim-catalysis.props)
 
 ## MIM-Conversion
 
-![Example GPML diagram](mim-conversion/mim-conversion.png)
+![Example GPML diagram](mim-conversion/mim-conversion.PNG)
 
 * [GPML](mim-conversion/mim-conversion.gpml)
 * [Expected results](mim-conversion/mim-conversion.props)
 
 ## MIM-Inhibition
 
-![Example GPML diagram](mim-inhibition/mim-inhibition.png)
+![Example GPML diagram](mim-inhibition/mim-inhibition.PNG)
 
 * [GPML](mim-inhibition/mim-inhibition.gpml)
 * [Expected results](mim-inhibition/mim-inhibition.props)
 
 ## MIM-Stimulation
 
-![Example GPML diagram](mim-stimulation/mim-stimuation.png)
+![Example GPML diagram](mim-stimulation/mim-stimulation.PNG)
 
 * [GPML](mim-stimulation/mim-stimulation.gpml)
 * [Expected results](mim-stimulation/mim-stimulation.props)
 
 ## SBGN-Catalysis
 
-![Example GPML diagram](sbgn-catalysis/sbgn-catalysis.png)
+![Example GPML diagram](sbgn-catalysis/sbgn-catalysis.PNG)
 
 * [GPML](sbgn-catalysis/sbgn-catalysis.gpml)
 * [Expected results](sbgn-catalysis/sbgn-catalysis.props)
 
 ## SBGN-Conversion
 
-![Example GPML diagram](sbgn-conversion/sbgn-conversion.png)
+![Example GPML diagram](sbgn-conversion/sbgn-conversion.PNG)
 
 * [GPML](sbgn-conversion/sbgn-conversion.gpml)
 * [Expected results](sbgn-conversion/sbgn-conversion.props)
 
 ## SBGN-Inhibition
 
-![Example GPML diagram](sbgn-inhibition/sbgn-inhibition.png)
+![Example GPML diagram](sbgn-inhibition/sbgn-inhibition.PNG)
 
 * [GPML](sbgn-inhibition/sbgn-inhibition.gpml)
 * [Expected results](sbgn-inhibition/sbgn-inhibition.props)
 
 ## SBGN-Stimulation
 
-![Example GPML diagram](sbgn-stimulation/sbgn-stimuation.png)
+![Example GPML diagram](sbgn-stimulation/mim-stimulation.PNG)
 
 * [GPML](sbgn-stimulation/sbgn-stimulation.gpml)
 * [Expected results](sbgn-stimulation/sbgn-stimulation.props)
