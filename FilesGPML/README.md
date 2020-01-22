@@ -121,7 +121,7 @@
 
 ## SBGN-Stimulation
 
-![Example GPML diagram](sbgn-stimulation/mim-stimulation.PNG)
+![Example GPML diagram](sbgn-stimulation/sbgn-stimulation.PNG)
 
 * [GPML](sbgn-stimulation/sbgn-stimulation.gpml)
 * [Expected results](sbgn-stimulation/sbgn-stimulation.props)
