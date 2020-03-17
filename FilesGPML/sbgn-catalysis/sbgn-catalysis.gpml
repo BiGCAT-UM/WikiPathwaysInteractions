@@ -17,14 +17,14 @@
     <Attribute Key="org.pathvisio.sbgn.class" Value="catalysis" />
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="263.0" Y="113.5" GraphRef="d71d6" RelX="0.0" RelY="1.0" />
-      <Point X="265.9740391571185" Y="197.31305276176698" GraphRef="a8048" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
+      <Point X="265.9740391571185" Y="197.31305276176698" GraphRef="a8048" RelX="0.0" RelY="0.0" ArrowHead="SBGN-Catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id85242dd8">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="169.0" Y="198.25" GraphRef="e879b" RelX="1.0" RelY="0.0" />
-      <Point X="376.0" Y="196.25" GraphRef="ae6f8" RelX="-1.0" RelY="0.0" ArrowHead="mim-conversion" />
+      <Point X="376.0" Y="196.25" GraphRef="ae6f8" RelX="-1.0" RelY="0.0" ArrowHead="SBGN-Production" />
       <Anchor Position="0.4684736191165146" Shape="None" GraphId="a8048" />
     </Graphics>
     <Xref Database="" ID="" />
