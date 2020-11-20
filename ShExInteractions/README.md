@@ -18,13 +18,17 @@ ShEx for Interactions
 ShEx for a general interaction:
 
 ```shex
-PREFIX dc: <http://purl.org/dc/elements/1.1/>
 PREFIX wp: <http://vocabularies.wikipathways.org/wp#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
 
 <interaction> {
-  wp:participants   IRI {1,} 
+  a                 [wp:Interaction] ;
+  a                 IRI * ;
+  dcterms:isPartOf  IRI ;
+  wp:participants   IRI {2,}
 }
 ```
+
 ShEx for directed interactions:
 
 ```shex
