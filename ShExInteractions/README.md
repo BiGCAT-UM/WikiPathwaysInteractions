@@ -38,6 +38,18 @@ PREFIX wp: <http://vocabularies.wikipathways.org/wp#>
 }
 ```
 
+## Testing
+
+Copy the turtle into `interaction.ttl` and the shape expression into `interaction.shex` and http://rdf.wikipathways.org/Pathway/WP4806_r110852/WP/Interaction/ae20c
+`directed_interaction.shex` and then run:
+
+```shell
+npm install --save shex
+./node_modules/shex/bin/validate -d interaction.ttl -x interaction.shex -n http://rdf.wikipathways.org/Pathway/WP4806_r110852/WP/Interaction/ae20c
+./node_modules/shex/bin/validate -d interaction.ttl -x directed_interaction.shex -n http://rdf.wikipathways.org/Pathway/WP4806_r110852/WP/Interaction/ae20c
+```
+
+
 ### BINDINGS 
 ```turtle
 @prefix wp:    <http://vocabularies.wikipathways.org/wp#> .
