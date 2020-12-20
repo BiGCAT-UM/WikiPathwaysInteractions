@@ -72,7 +72,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
 PREFIX wp: <http://vocabularies.wikipathways.org/wp#>
 
 <interaction> {
-  wp:participants   IRI {1,} 
+  wp:participants   IRI {2,} 
 }
 ```
 
@@ -83,7 +83,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
 PREFIX wp: <http://vocabularies.wikipathways.org/wp#>
 
 <interaction> {
-  wp:participants   IRI {1,} 
+  wp:participants   IRI {2,} 
 }
 ```
 
