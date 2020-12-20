@@ -72,6 +72,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
 PREFIX wp: <http://vocabularies.wikipathways.org/wp#>
 
 <interaction> {
+  dcterms:isPartOf  IRI * ;
   wp:participants   IRI {2,} 
 }
 ```
@@ -83,6 +84,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
 PREFIX wp: <http://vocabularies.wikipathways.org/wp#>
 
 <interaction> {
+  dcterms:isPartOf  IRI * ;
   wp:participants   IRI {2,} 
 }
 ```
@@ -107,6 +109,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
 PREFIX wp: <http://vocabularies.wikipathways.org/wp#>
 
 <interaction> {
+  dcterms:isPartOf  IRI * ;
   wp:participants   IRI {2,} ;
   wp:source         IRI ;
   wp:target         IRI
@@ -133,6 +136,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
 PREFIX wp: <http://vocabularies.wikipathways.org/wp#>
 
 <interaction> {
+  dcterms:isPartOf  IRI * ;
   wp:participants   IRI {2,} ;
   wp:source         IRI ;
   wp:target         IRI
@@ -158,6 +162,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
 PREFIX wp: <http://vocabularies.wikipathways.org/wp#>
 
 <interaction> {
+  dcterms:isPartOf  IRI * ;
   wp:participants   IRI {2,} ;
   wp:source         IRI ;
   wp:target         IRI
@@ -184,6 +189,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
 PREFIX wp: <http://vocabularies.wikipathways.org/wp#>
 
 <interaction> {
+  dcterms:isPartOf  IRI * ;
   wp:participants   IRI {2,} ;
   wp:source         IRI ;
   wp:target         IRI
@@ -210,6 +216,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
 PREFIX wp: <http://vocabularies.wikipathways.org/wp#>
 
 <interaction> {
+  dcterms:isPartOf  IRI * ;
   wp:participants   IRI {2,} ;
   wp:source         IRI ;
   wp:target         IRI
