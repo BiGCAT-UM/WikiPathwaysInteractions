@@ -36,6 +36,9 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
 PREFIX wp: <http://vocabularies.wikipathways.org/wp#>
 
 <interaction> {
+  a                 [wp:DirectedInteraction] ;
+  a                 IRI * ;
+  dcterms:isPartOf  IRI ;
   wp:participants   IRI {2,} ;
   wp:source         IRI ;
   wp:target         IRI
@@ -72,7 +75,9 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
 PREFIX wp: <http://vocabularies.wikipathways.org/wp#>
 
 <interaction> {
-  dcterms:isPartOf  IRI * ;
+  a                 [wp:Binding] ;
+  a                 IRI * ;
+  dcterms:isPartOf  IRI ;
   wp:participants   IRI {2,} 
 }
 ```
@@ -84,7 +89,9 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
 PREFIX wp: <http://vocabularies.wikipathways.org/wp#>
 
 <interaction> {
-  dcterms:isPartOf  IRI * ;
+  a                 [wp:ComplexBinding] ;
+  a                 IRI * ;
+  dcterms:isPartOf  IRI ;
   wp:participants   IRI {2,} 
 }
 ```
@@ -109,7 +116,9 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
 PREFIX wp: <http://vocabularies.wikipathways.org/wp#>
 
 <interaction> {
-  dcterms:isPartOf  IRI * ;
+  a                 [wp:Conversion] ;
+  a                 IRI * ;
+  dcterms:isPartOf  IRI ;
   wp:participants   IRI {2,} ;
   wp:source         IRI ;
   wp:target         IRI
@@ -136,7 +145,9 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
 PREFIX wp: <http://vocabularies.wikipathways.org/wp#>
 
 <interaction> {
-  dcterms:isPartOf  IRI * ;
+  a                 [wp:Inhibition] ;
+  a                 IRI * ;
+  dcterms:isPartOf  IRI ;
   wp:participants   IRI {2,} ;
   wp:source         IRI ;
   wp:target         IRI
@@ -162,7 +173,9 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
 PREFIX wp: <http://vocabularies.wikipathways.org/wp#>
 
 <interaction> {
-  dcterms:isPartOf  IRI * ;
+  a                 [wp:Catalysis] ;
+  a                 IRI * ;
+  dcterms:isPartOf  IRI ;
   wp:participants   IRI {2,} ;
   wp:source         IRI ;
   wp:target         IRI
@@ -189,7 +202,9 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
 PREFIX wp: <http://vocabularies.wikipathways.org/wp#>
 
 <interaction> {
-  dcterms:isPartOf  IRI * ;
+  a                 [wp:Stimulation] ;
+  a                 IRI * ;
+  dcterms:isPartOf  IRI ;
   wp:participants   IRI {2,} ;
   wp:source         IRI ;
   wp:target         IRI
@@ -216,7 +231,9 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
 PREFIX wp: <http://vocabularies.wikipathways.org/wp#>
 
 <interaction> {
-  dcterms:isPartOf  IRI * ;
+  a                 [wp:TranscriptionTranslation] ;
+  a                 IRI * ;
+  dcterms:isPartOf  IRI ;
   wp:participants   IRI {2,} ;
   wp:source         IRI ;
   wp:target         IRI
