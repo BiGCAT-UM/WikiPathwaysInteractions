@@ -1,34 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="SBGN - Catalysis" Version="20190528" Organism="Homo sapiens">
-  <Graphics BoardWidth="505.0" BoardHeight="244.5" />
-  <DataNode TextLabel="DHFU" GraphId="ae6f8" Type="Metabolite">
-    <Graphics CenterX="425.5" CenterY="196.25" Width="99.0" Height="30.5" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="SBGN - Catalysis" Version="20210830" Organism="Homo sapiens">
+  <Attribute Key="org.pathvisio.sbgn.language" Value="activity flow" />
+  <Graphics BoardWidth="1181.0" BoardHeight="408.0" />
+  <DataNode TextLabel="DHFU" GraphId="d0c93" Type="Metabolite">
+    <Attribute Key="org.pathvisio.sbgn.class" Value="biological activity" />
+    <Graphics CenterX="440.0" CenterY="235.0" Width="124.0" Height="58.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="PubChem-compound" ID="121997" />
   </DataNode>
-  <DataNode TextLabel="DPYD" GraphId="d71d6" Type="GeneProduct">
-    <Graphics CenterX="263.0" CenterY="96.25" Width="96.0" Height="34.5" ZOrder="32768" FontSize="12" Valign="Middle" />
+  <DataNode TextLabel="DYPD" GraphId="bbaae" Type="GeneProduct">
+    <Attribute Key="org.pathvisio.sbgn.class" Value="biological activity" />
+    <Graphics CenterX="278.0" CenterY="90.0" Width="124.0" Height="58.0" ZOrder="32769" FontSize="12" Valign="Middle" />
     <Xref Database="Entrez Gene" ID="1806" />
   </DataNode>
-  <DataNode TextLabel="5-FU" GraphId="e879b" Type="Metabolite">
-    <Graphics CenterX="122.0" CenterY="198.25" Width="94.0" Height="32.5" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
+  <DataNode TextLabel="5-FU" GraphId="f545d" Type="Metabolite">
+    <Attribute Key="org.pathvisio.sbgn.class" Value="biological activity" />
+    <Graphics CenterX="108.0" CenterY="235.0" Width="124.0" Height="58.0" ZOrder="32770" FontSize="12" Valign="Middle" />
     <Xref Database="ChEBI" ID="CHEBI:46345" />
   </DataNode>
-  <Interaction GraphId="id771b40c2">
+  <Interaction>
+    <Attribute Key="org.pathvisio.sbgn.isPort" Value="true" />
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="238.0" Y="235.0" GraphRef="fbbe6" RelX="-5.0" RelY="0.0" />
+      <Point X="270.0" Y="235.0" GraphRef="fbbe6" RelX="-1.0" RelY="0.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="ec762" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction>
+    <Attribute Key="org.pathvisio.sbgn.isPort" Value="true" />
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="318.0" Y="235.0" GraphRef="fbbe6" RelX="5.0" RelY="0.0" />
+      <Point X="286.0" Y="235.0" GraphRef="fbbe6" RelX="1.0" RelY="0.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="f5878" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction>
     <Attribute Key="org.pathvisio.sbgn.class" Value="catalysis" />
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="263.0" Y="113.5" GraphRef="d71d6" RelX="0.0" RelY="1.0" />
-      <Point X="265.9740391571185" Y="197.31305276176698" GraphRef="a8048" RelX="0.0" RelY="0.0" ArrowHead="SBGN-Catalysis" />
+      <Point X="278.0" Y="119.0" GraphRef="bbaae" RelX="0.0" RelY="1.0" />
+      <Point X="278.0" Y="227.0" GraphRef="fbbe6" RelX="0.0" RelY="-1.0" ArrowHead="SBGN-Catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
-  <Interaction GraphId="id85242dd8">
+  <Interaction>
+    <Attribute Key="org.pathvisio.sbgn.class" Value="production" />
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="169.0" Y="198.25" GraphRef="e879b" RelX="1.0" RelY="0.0" />
-      <Point X="376.0" Y="196.25" GraphRef="ae6f8" RelX="-1.0" RelY="0.0" ArrowHead="SBGN-Production" />
-      <Anchor Position="0.4684736191165146" Shape="None" GraphId="a8048" />
+      <Point X="318.0" Y="235.0" GraphRef="f5878" RelX="0.0" RelY="0.0" />
+      <Point X="378.0" Y="235.0" GraphRef="d0c93" RelX="-1.0" RelY="0.0" ArrowHead="SBGN-Production" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
+  <Interaction>
+    <Attribute Key="org.pathvisio.sbgn.class" Value="consumption" />
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="238.0" Y="235.0" GraphRef="ec762" RelX="0.0" RelY="0.0" />
+      <Point X="170.0" Y="235.0" GraphRef="f545d" RelX="1.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Label TextLabel="" GraphId="fbbe6">
+    <Attribute Key="org.pathvisio.sbgn.class" Value="process" />
+    <Graphics CenterX="278.0" CenterY="235.0" Width="16.0" Height="16.0" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" ShapeType="Rectangle" />
+  </Label>
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax />
 </Pathway>
