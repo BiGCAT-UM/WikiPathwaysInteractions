@@ -1,22 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="SBGN - Stimulation" Version="20190528" Organism="Homo sapiens">
-  <Graphics BoardWidth="466.0" BoardHeight="268.5" />
-  <DataNode TextLabel="E2F1" GraphId="d48f3" Type="Protein">
-    <Graphics CenterX="385.875" CenterY="220.625" Width="100.25" Height="33.25" ZOrder="32768" FontSize="12" Valign="Middle" />
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="SBGN - Stimulation" Version="20210830" Organism="Homo sapiens">
+  <Attribute Key="org.pathvisio.sbgn.language" Value="activity flow" />
+  <Graphics BoardWidth="1090.0" BoardHeight="308.0" />
+  <DataNode TextLabel="E2F1" GraphId="a0c69" Type="Protein">
+    <Attribute Key="org.pathvisio.sbgn.class" Value="biological activity" />
+    <Graphics CenterX="414.5" CenterY="95.5" Width="145.0" Height="73.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Uniprot-TrEMBL" ID="Q01094" />
   </DataNode>
-  <DataNode TextLabel="SMAD2" GraphId="e8bf6" Type="Protein">
-    <Graphics CenterX="127.5" CenterY="223.25" Width="99.0" Height="30.5" ZOrder="32768" FontSize="12" Valign="Middle" />
+  <DataNode TextLabel="SMAD2" GraphId="dec75" Type="Protein">
+    <Attribute Key="org.pathvisio.sbgn.class" Value="biological activity" />
+    <Graphics CenterX="97.5" CenterY="95.5" Width="145.0" Height="73.0" ZOrder="32769" FontSize="12" Valign="Middle" />
     <Xref Database="Uniprot-TrEMBL" ID="Q15796" />
   </DataNode>
   <Interaction>
-    <Attribute Key="org.pathvisio.sbgn.class" Value="stimulation" />
+    <Attribute Key="org.pathvisio.sbgn.isPort" Value="true" />
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="177.0" Y="223.25" GraphRef="e8bf6" RelX="1.0" RelY="0.0" />
-      <Point X="335.75" Y="220.625" GraphRef="d48f3" RelX="-1.0" RelY="0.0" ArrowHead="SBGN-Stimulation" />
+      <Point X="214.0" Y="95.0" GraphRef="c64b1" RelX="-5.0" RelY="0.0" />
+      <Point X="246.0" Y="95.0" GraphRef="c64b1" RelX="-1.0" RelY="0.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="cce44" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
+  <Interaction>
+    <Attribute Key="org.pathvisio.sbgn.isPort" Value="true" />
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="294.0" Y="95.0" GraphRef="c64b1" RelX="5.0" RelY="0.0" />
+      <Point X="262.0" Y="95.0" GraphRef="c64b1" RelX="1.0" RelY="0.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="c2530" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction>
+    <Attribute Key="org.pathvisio.sbgn.class" Value="stimulation" />
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="294.0" Y="95.0" GraphRef="c2530" RelX="0.0" RelY="0.0" />
+      <Point X="342.0" Y="95.5" GraphRef="a0c69" RelX="-1.0" RelY="0.0" ArrowHead="SBGN-Stimulation" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction>
+    <Attribute Key="org.pathvisio.sbgn.class" Value="consumption" />
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="170.0" Y="95.5" GraphRef="dec75" RelX="1.0" RelY="0.0" />
+      <Point X="214.0" Y="95.0" GraphRef="cce44" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Label TextLabel="" GraphId="c64b1">
+    <Attribute Key="org.pathvisio.sbgn.class" Value="process" />
+    <Graphics CenterX="254.0" CenterY="95.0" Width="16.0" Height="16.0" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" ShapeType="Rectangle" />
+  </Label>
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax />
 </Pathway>
