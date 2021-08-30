@@ -1,22 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="SBGN - Conversion" Version="20190528" Organism="Homo sapiens">
-  <Graphics BoardWidth="425.0" BoardHeight="232.0" />
-  <DataNode TextLabel="HDL-C" GraphId="bf9b8" Type="Metabolite">
-    <Graphics CenterX="348.5" CenterY="184.25" Width="93.0" Height="35.5" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:47775" />
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="SBGN-Conversion" Version="20210830" Organism="Homo sapiens">
+  <Attribute Key="org.pathvisio.sbgn.language" Value="activity flow" />
+  <Graphics BoardWidth="1133.0" BoardHeight="374.0" />
+  <DataNode TextLabel="HDL-C" GraphId="d0bf4" Type="Metabolite">
+    <Attribute Key="org.pathvisio.sbgn.class" Value="biological activity" />
+    <Graphics CenterX="352.0" CenterY="96.5" Width="118.0" Height="75.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="" ID="" />
   </DataNode>
-  <DataNode TextLabel="HDL" GraphId="eb089" Type="Metabolite">
-    <Graphics CenterX="102.875" CenterY="182.625" Width="96.25" Height="33.25" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
+  <DataNode TextLabel="HDL" GraphId="fcf17" Type="Metabolite">
+    <Attribute Key="org.pathvisio.sbgn.class" Value="biological activity" />
+    <Graphics CenterX="85.0" CenterY="96.5" Width="118.0" Height="75.0" ZOrder="32769" FontSize="12" Valign="Middle" />
     <Xref Database="ChEBI" ID="CHEBI:39025" />
   </DataNode>
   <Interaction>
-    <Attribute Key="org.pathvisio.sbgn.class" Value="production" />
+    <Attribute Key="org.pathvisio.sbgn.isPort" Value="true" />
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="151.0" Y="182.625" GraphRef="eb089" RelX="1.0" RelY="0.0" />
-      <Point X="302.0" Y="184.25" GraphRef="bf9b8" RelX="-1.0" RelY="0.0" ArrowHead="SBGN-Production" />
+      <Point X="171.0" Y="96.0" GraphRef="f02e7" RelX="-5.0" RelY="0.0" />
+      <Point X="203.0" Y="96.0" GraphRef="f02e7" RelX="-1.0" RelY="0.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="a4d7e" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
+  <Interaction>
+    <Attribute Key="org.pathvisio.sbgn.isPort" Value="true" />
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="251.0" Y="96.0" GraphRef="f02e7" RelX="5.0" RelY="0.0" />
+      <Point X="219.0" Y="96.0" GraphRef="f02e7" RelX="1.0" RelY="0.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="c3467" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction>
+    <Attribute Key="org.pathvisio.sbgn.class" Value="production" />
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="251.0" Y="96.0" GraphRef="c3467" RelX="0.0" RelY="0.0" />
+      <Point X="293.0" Y="96.5" GraphRef="d0bf4" RelX="-1.0" RelY="0.0" ArrowHead="SBGN-Production" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction>
+    <Attribute Key="org.pathvisio.sbgn.class" Value="consumption" />
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="144.0" Y="96.5" GraphRef="fcf17" RelX="1.0" RelY="0.0" />
+      <Point X="171.0" Y="96.0" GraphRef="a4d7e" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Label TextLabel="" GraphId="f02e7">
+    <Attribute Key="org.pathvisio.sbgn.class" Value="process" />
+    <Graphics CenterX="211.0" CenterY="96.0" Width="16.0" Height="16.0" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" ShapeType="Rectangle" />
+  </Label>
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax />
 </Pathway>
