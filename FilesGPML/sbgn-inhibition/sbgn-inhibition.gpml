@@ -1,22 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="SBGN - Inhibition" Version="20190528" Organism="Homo sapiens">
-  <Graphics BoardWidth="762.0" BoardHeight="306.0" />
-  <DataNode TextLabel="NOG" GraphId="c5438" Type="GeneProduct">
-    <Graphics CenterX="100.5" CenterY="187.25" Width="101.0" Height="30.5" ZOrder="32768" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSG00000183691" />
-  </DataNode>
-  <DataNode TextLabel="BMP2" GraphId="d290e" Type="GeneProduct">
-    <Graphics CenterX="365.375" CenterY="187.625" Width="99.25" Height="29.25" ZOrder="32768" FontSize="12" Valign="Middle" />
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="SBGN-Inhibition" Version="20210830" Organism="Homo sapiens">
+  <Attribute Key="org.pathvisio.sbgn.language" Value="activity flow" />
+  <Graphics BoardWidth="753.0" BoardHeight="301.0" />
+  <DataNode TextLabel="BMP2" GraphId="d71cd" Type="GeneProduct">
+    <Attribute Key="org.pathvisio.sbgn.class" Value="biological activity" />
+    <Graphics CenterX="421.5" CenterY="91.5" Width="151.0" Height="77.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSG00000125845" />
   </DataNode>
+  <DataNode TextLabel="NOG" GraphId="f11a8" Type="GeneProduct">
+    <Attribute Key="org.pathvisio.sbgn.class" Value="biological activity" />
+    <Graphics CenterX="88.5" CenterY="91.5" Width="151.0" Height="77.0" ZOrder="32769" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSG00000183691" />
+  </DataNode>
   <Interaction>
-    <Attribute Key="org.pathvisio.sbgn.class" Value="inhibition" />
+    <Attribute Key="org.pathvisio.sbgn.isPort" Value="true" />
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="151.0" Y="187.25" GraphRef="c5438" RelX="1.0" RelY="0.0" />
-      <Point X="315.75" Y="187.625" GraphRef="d290e" RelX="-1.0" RelY="0.0" ArrowHead="SBGN-Inhibition" />
+      <Point X="214.0" Y="91.0" GraphRef="e3885" RelX="-5.0" RelY="0.0" />
+      <Point X="246.0" Y="91.0" GraphRef="e3885" RelX="-1.0" RelY="0.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="ec7c8" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
+  <Interaction>
+    <Attribute Key="org.pathvisio.sbgn.isPort" Value="true" />
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="294.0" Y="91.0" GraphRef="e3885" RelX="5.0" RelY="0.0" />
+      <Point X="262.0" Y="91.0" GraphRef="e3885" RelX="1.0" RelY="0.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="ba0bb" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction>
+    <Attribute Key="org.pathvisio.sbgn.class" Value="inhibition" />
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="294.0" Y="91.0" GraphRef="ba0bb" RelX="0.0" RelY="0.0" />
+      <Point X="346.0" Y="91.5" GraphRef="d71cd" RelX="-1.0" RelY="0.0" ArrowHead="SBGN-Inhibition" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction>
+    <Attribute Key="org.pathvisio.sbgn.class" Value="consumption" />
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="164.0" Y="91.5" GraphRef="f11a8" RelX="1.0" RelY="0.0" />
+      <Point X="214.0" Y="91.0" GraphRef="ec7c8" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Label TextLabel="" GraphId="e3885">
+    <Attribute Key="org.pathvisio.sbgn.class" Value="process" />
+    <Graphics CenterX="254.0" CenterY="91.0" Width="16.0" Height="16.0" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" ShapeType="Rectangle" />
+  </Label>
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax />
 </Pathway>
