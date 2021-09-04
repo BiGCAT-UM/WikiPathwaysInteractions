@@ -32,8 +32,8 @@ PREFIX dcterms: <http://purl.org/dc/terms/>
 ShEx for directed interactions:
 
 ```shex
-PREFIX dc: <http://purl.org/dc/elements/1.1/>
 PREFIX wp: <http://vocabularies.wikipathways.org/wp#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
 
 <interaction> {
   a                 [wp:DirectedInteraction] ;
@@ -71,8 +71,8 @@ npm install --save shex
 ShEX for Binding interactions
 
 ```shex
-PREFIX dc: <http://purl.org/dc/elements/1.1/>
 PREFIX wp: <http://vocabularies.wikipathways.org/wp#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
 
 <interaction> {
   a                 [wp:Binding] ;
@@ -85,8 +85,8 @@ PREFIX wp: <http://vocabularies.wikipathways.org/wp#>
 ShEx for Complex Binding interactions
 
 ```shex
-PREFIX dc: <http://purl.org/dc/elements/1.1/>
 PREFIX wp: <http://vocabularies.wikipathways.org/wp#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
 
 <interaction> {
   a                 [wp:ComplexBinding] ;
@@ -112,8 +112,8 @@ PREFIX wp: <http://vocabularies.wikipathways.org/wp#>
 ShEx for Conversion interactions:
 
 ```shex
-PREFIX dc: <http://purl.org/dc/elements/1.1/>
 PREFIX wp: <http://vocabularies.wikipathways.org/wp#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
 
 <interaction> {
   a                 [wp:Conversion] ;
@@ -141,8 +141,8 @@ PREFIX wp: <http://vocabularies.wikipathways.org/wp#>
 ShEx for Inhibition interactions:
 
 ```shex
-PREFIX dc: <http://purl.org/dc/elements/1.1/>
 PREFIX wp: <http://vocabularies.wikipathways.org/wp#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
 
 <interaction> {
   a                 [wp:Inhibition] ;
@@ -169,8 +169,8 @@ PREFIX wp: <http://vocabularies.wikipathways.org/wp#>
 ShEx for Catalysis interactions:
 
 ```shex
-PREFIX dc: <http://purl.org/dc/elements/1.1/>
 PREFIX wp: <http://vocabularies.wikipathways.org/wp#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
 
 <interaction> {
   a                 [wp:Catalysis] ;
@@ -198,8 +198,8 @@ PREFIX wp: <http://vocabularies.wikipathways.org/wp#>
 ShEx for Stimulation interactions:
 
 ```shex
-PREFIX dc: <http://purl.org/dc/elements/1.1/>
 PREFIX wp: <http://vocabularies.wikipathways.org/wp#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
 
 <interaction> {
   a                 [wp:Stimulation] ;
@@ -227,8 +227,8 @@ PREFIX wp: <http://vocabularies.wikipathways.org/wp#>
 ShEx for TranscriptionTranslation interactions:
 
 ```shex
-PREFIX dc: <http://purl.org/dc/elements/1.1/>
 PREFIX wp: <http://vocabularies.wikipathways.org/wp#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
 
 <interaction> {
   a                 [wp:TranscriptionTranslation] ;
