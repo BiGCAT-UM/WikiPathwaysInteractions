@@ -1,0 +1,12 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX wp: <http://vocabularies.wikipathways.org/wp#>
+
+<interaction> {
+  a                 [wp:DirectedInteraction] ;
+  a                 [wp:Interaction] ;
+  a                 IRI * ;
+  dcterms:isPartOf  IRI ;
+  wp:participants   IRI {2,} ;
+  wp:source         IRI ;
+  wp:target         IRI
+}

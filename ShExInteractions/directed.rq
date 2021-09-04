@@ -1,0 +1,5 @@
+PREFIX wp: <http://vocabularies.wikipathways.org/wp#>
+
+SELECT ?interaction WHERE {
+  ?interaction a wp:DirectedInteraction .
+}

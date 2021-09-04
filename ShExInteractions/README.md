@@ -1,3 +1,5 @@
+## Shape Expressions
+
 ### Interactions
 
 ShEx for Interactions
@@ -44,18 +46,6 @@ PREFIX dcterms: <http://purl.org/dc/terms/>
   wp:target         IRI
 }
 ```
-
-## Testing
-
-Copy the turtle into `interaction.ttl` and the shape expression into `interaction.shex` and http://rdf.wikipathways.org/Pathway/WP4806_r110852/WP/Interaction/ae20c
-`directed_interaction.shex` and then run:
-
-```shell
-npm install --save shex
-./node_modules/shex/bin/validate -d interaction.ttl -x interaction.shex -n http://rdf.wikipathways.org/Pathway/WP4806_r110852/WP/Interaction/ae20c
-./node_modules/shex/bin/validate -d interaction.ttl -x directed_interaction.shex -n http://rdf.wikipathways.org/Pathway/WP4806_r110852/WP/Interaction/ae20c
-```
-
 
 ### BINDINGS 
 ```turtle
@@ -238,4 +228,33 @@ PREFIX dcterms: <http://purl.org/dc/terms/>
   wp:source         IRI ;
   wp:target         IRI
 }
+```
+
+## Testing
+
+Copy the turtle into `interaction.ttl` and the shape expression into `interaction.shex` and http://rdf.wikipathways.org/Pathway/WP4806_r110852/WP/Interaction/ae20c
+`directed_interaction.shex` and then run:
+
+```shell
+npm install --save shex
+./node_modules/shex/bin/validate -d interaction.ttl -x interaction.shex -n http://rdf.wikipathways.org/Pathway/WP4806_r110852/WP/Interaction/ae20c
+./node_modules/shex/bin/validate -d interaction.ttl -x directed_interaction.shex -n http://rdf.wikipathways.org/Pathway/WP4806_r110852/WP/Interaction/ae20c
+```
+
+### A Makefile solution
+
+A helper `Makefile` is added to validate the content of a WPRDF archive. In this directory you need to unzip the WPRDF archive, e.g. with:
+
+```shell
+unzip ~/Downloads/wikipathways-20190610-rdf-wp.zip
+```
+
+That will create a `wp/` subfolder with a lot `.ttl` files. Then, run `make`. This will run the `directed.shex` ShEx on all
+`wp:DirectedInteraction` on all Turtle files. The node IRIs are looked up with roqet and the SPARQL query in `directed.sparl`.
+The `Makefile` finally uses the `jq` tool to count the number of errors. The expected output looks something like this:
+
+```
+Validating wp/Human/WP4486.ttl ...
+  Running ShEx for http://rdf.wikipathways.org/Pathway/WP4486_r103721/WP/Interaction/id7cdb6dab
+    Errors:  0
 ```
