@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: Please cite the following works when using this software.
+type: software
+authors:
+  - family-names: Miller
+    given-names: Ryan A.
+  - family-names: Kutmon
+    given-names: Martina
+  - family-names: Bohler
+    given-names: Anwesha
+  - family-names: Waagmeester
+    given-names: Andra
+  - family-names: Evelo
+    given-names: Chris T.
+  - family-names: Willighagen
+    given-names: Egon L.
+doi: 10.1371/JOURNAL.PONE.0263057
+identifiers:
+  - type: doi
+    value: 10.1371/JOURNAL.PONE.0263057
+  - type: other
+    value: urn:issn:1932-6203
+keywords:
+  - WikiPathways
+  - MECP2
+title: >-
+  Understanding signaling and metabolic paths using semantified and harmonized
+  information about biological interactions
