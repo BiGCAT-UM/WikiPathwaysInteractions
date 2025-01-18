@@ -10,7 +10,7 @@ Ryan A Miller, Martina Kutmon, Anwesha Bohler, Andra Waagmeester, Chris T Evelo,
 doi: https://doi.org/10.1371/JOURNAL.PONE.0263057
 ```
 
-Queries are represented in Jupyter Notebooks using Python against the WikiPathways SPARQL endpoint (http://sparql.wikipathways.org/).
+Queries are represented in Jupyter Notebooks using Python against the WikiPathways SPARQL endpoint (https://sparql.wikipathways.org/).
 
 ## Python Jupyter Notebooks
 
