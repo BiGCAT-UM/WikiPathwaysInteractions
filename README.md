@@ -7,7 +7,7 @@ This repository has Jupyter Notebook queries that supplement this paper:
 ```text
 Understanding signaling and metabolic paths using semantified and harmonized information about biological interactions
 Ryan A Miller, Martina Kutmon, Anwesha Bohler, Andra Waagmeester, Chris T Evelo, Egon L Willighagen
-doi: https://doi.org/10.1101/2020.07.31.230599
+doi: https://doi.org/10.1371/JOURNAL.PONE.0263057
 ```
 
 Queries are represented in Jupyter Notebooks using Python against the WikiPathways SPARQL endpoint (http://sparql.wikipathways.org/).
